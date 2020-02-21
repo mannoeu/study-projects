@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.teste {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.teste h2 {
+  color: rgb(38, 226, 79);
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+input, button {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+  border: none;
+  border-bottom: 1px solid rgb(151, 151, 151);
+  outline: none;
+  width: 200px;
+  height: 20px;
+  background: transparent;
+  transition: .3s ease;
+  color: rgb(38, 226, 79);
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  width: 220px;
+  border-bottom: 1px solid rgb(38, 226, 79);
+}
+
+::placeholder {
+  color: rgb(151, 151, 151);
+}
+
+button {
+  background: rgb(38, 226, 79);
+  width: 200px;
+  height: 30px;
+  color: #000;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.info label {
+  color: rgb(38, 226, 79);
+  margin: auto;
+}
+
+input[type="checkbox"] {
+  margin: auto;
+}

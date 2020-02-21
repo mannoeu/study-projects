@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html5>
+<html>
+    <head>
+        <meta charset="UTF8">
+        <title>Pyke info</title>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Pyke</h1>
+            <p>the Bloodharbor Ripper</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1200" class="content">
+            <!-- História -->
+        <div class="historia">
+            <h1>História</h1>
+            <div class="first">
+                <h4>"Tem espaço suficiente para todos no fundo do mar..."</h4>
+                <spam>Pyke</spam>
+            </div>
+            <div class="second">
+                <p>Arpoador renomado e forjado nas Docas da Matança de Águas de Sentina, 
+                    Pyke deveria ter encontrado a morte na barriga de um peixe-jaula gigante... 
+                    mas não foi bem assim, e ele acabou voltando. Agora, vagando pelos becos úmidos 
+                    de sua cidade natal, ele usa seus novos dons sobrenaturais para trazer um rápido 
+                    e grotesco fim para aqueles que fazem fortuna explorando os outros — e agora os 
+                    mesmos habitantes, que um dia se orgulharam de caçar monstros, passaram a ser 
+                    caçados por um.</p>
+            </div>
+        </div> 
+        <!-- Fim História -->
+        <!-- Habilidades -->
+            <div data-aos="fade-down" data-aos-duration="1200" class="habilidades">
+                <h1>habilidades</h1>
+
+                <div class="hab-fade" data-aos="fade-up" data-aos-duration="1200">
+                <h3>Dádiva dos Afogados</h3>
+                <img src="img/passiva.png">
+                <p>Quando Pyke está escondido dos inimigos, ele regenera o dano 
+                    recebido recentemente de Campeões. Pyke também não 
+                    ganha Vida máxima adicional de nenhuma fonte, mas 
+                    ganha DdA adicional.</p>
+                </div>
+                
+                <div class="hab-fade" data-aos="fade-up" data-aos-duration="1200">
+                <h3>Espeto de Osso</h3>
+                <img src="img/q.png">
+
+                </br><spam><strong>Custo:</strong> 70 de mana</spam></br>
+                <spam><strong>Alcance:</strong> 400</spam>
+
+                <p>Pyke esfaqueia um inimigo à sua frente ou puxa um 
+                    inimigo em direção a si mesmo.
+                </br></br>
+                    Pressionar: Pyke esfaqueia em uma direção, 
+                    causando dano ao inimigo mais próximo (priorizando Campeões).
+                    Segurar: Pyke lança seu arpão, puxando o primeiro 
+                    inimigo atingido em direção a ele.Causa 
+                    75/125/175/225/275 (+60% de Dano de Ataque Bônus) 
+                    de Dano Físico e reduz a velocidade em 90% por 1s.</p>
+                </div>
+
+                <div class="hab-fade" data-aos="fade-up" data-aos-duration="1200">
+                <h3>Mergulho Fantasma</h3>
+                <img src="img/w.png">
+
+                 </br><spam><strong>Custo:</strong> 50 de mana</spam></br>
+                <spam><strong>Alcance:</strong> 600</spam>
+
+                <p>Pyke entra em camuflagem e ganha Velocidade de Movimento significativa
+                     que decai ao longo do tempo.
+                </br></br>
+                    Pyke recebe Camuflagem e 40/45/50/55/60% (+[0]%) de 
+                    Velocidade de Movimento, que decai ao longo de 
+                    [object Object]s.
+                    Furtividade - Camuflagem: Pyke permanece escondido 
+                    enquanto os Campeões inimigos estiverem fora do seu 
+                    raio de detecção. Atacar ou conjurar habilidades encerra 
+                    a Camuflagem.</p>
+                </div>
+                
+                <div class="hab-fade" data-aos="fade-up" data-aos-duration="1200">
+                <h3>Ressaca Espectral</h3>
+                <img src="img/e.png">
+
+                 </br><spam><strong>Custo:</strong> 40 de mana</spam></br>
+                <spam><strong>Alcance:</strong> 550</spam>
+
+                <p>Pyke avança e deixa para trás um fantasma, que avança até ele e 
+                    atordoa os Campeões inimigos pelo caminho.
+                    </br></br>
+                    Pyke avança, deixando para trás um fantasma afogado. 
+                    Depois de um curto intervalo, o fantasma retorna para 
+                    Pyke, acertando Campeões inimigos em seu caminho e atordoando-os 
+                    por 1.25 (+{{ f10.01 }})s. Campeões atingidos recebem 
+                    95/125/155/185/215 (+100% de Dano de Ataque Bônus) de 
+                    Dano Físico.</p>
+                </div>
+
+                <div class="hab-fade" data-aos="fade-up" data-aos-duration="1200">
+                <h3>Morte das Profundezas</h3>
+                <img src="img/r.png">
+
+                 </br><spam><strong>Custo:</strong> 100 de mana</spam></br>
+                <spam><strong>Alcance:</strong> 750</spam>
+
+                <p>Pyke teleporta até inimigos com Vida baixa e os executa, permitindo 
+                    que ele conjure a habilidade novamente e concedendo ouro 
+                    adicional ao aliado que der assistência.
+                    </br></br>
+                    Pyke acerta todos os Campeões inimigos em um X, teleportando-se e 
+                    executando alvos com Vida abaixo de {{ rbasedamage }} (+{{ raddamage }}) 
+                    (+{{ rlethalitydamage }}). Inimigos que não forem executados 
+                    sofrem Dano Físico equivalente a {{ reduceddamage*100 }}% do 
+                    limite.Quando um Campeão inimigo morre no X por qualquer fonte, 
+                    Pyke e o aliado que lhe prestar assistência também recebem uma 
+                    Parcela adicional igual ao ouro total do abate e Pyke pode 
+                    conjurar Morte das Profundezas novamente dentro de 
+                    {{ rrecastduration }}s.
+                    Total de ouro compartilhado com aliados: 0Total de ouro 
+                    mantido para si mesmo: {{ f10 }}</p>
+                    </div>
+            </div>
+            <!-- Fim Habilidades -->
+            <div class="extra">
+		
+            </div>
+        </div>
+        <audio type="audio/mp3" src="music/pyke-theme.mp3" autoplay="true" loop="true"><p>Seu navegador não suporta o elemento audio</p></audio>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+  		AOS.init();
+	</script>
+    </body>
+</html>

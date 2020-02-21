@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+::selection{
+    background: #6a12cb;
+    color: #fff;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.conteudo h1{
+    animation-duration: 3s;
+    font-family: montserrat;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center;
+    text-shadow: #666 0px 1px 0px;
+}
+.conteudo h3{
+    animation-duration: 3s;
+    font-family: montserrat;
+    color: white;
+    text-transform: lowercase;
+    font-weight: normal;
+    letter-spacing: 4px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-shadow: #666 0px 1px 0px;
+}
+.conteudo{
+    width: 490px;
+    height: 360px;
+    margin: 0 auto;
+    background: url('../img/lofi.gif') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.12);
+    transition: 0.4s all;
+}
+.conteudo:hover{
+    transform: scale(1.05);
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.botoes button{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    text-transform: lowercase;
+    font-family: montserrat;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 12px;
+    border: none;
+    margin: 2px;
+    border-radius: 19px;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    background-size: 200%;
+    color: white;
+    transition: 0.3s all;
+    cursor: pointer;
+    outline: none;
+}
+.botoes button:hover{
+    transform: translateY(-5px);
+    background-position: 100%;
+}
+.status{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.status span{
+    color: white;
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-shadow: #666 0px 1px 0px;
+}
