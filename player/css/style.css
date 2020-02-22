@@ -19,7 +19,7 @@ body{
 }
 .conteudo h1{
     animation-duration: 3s;
-    font-family: montserrat;
+    font-family: Montserrat, 'LabMono', sans-serif;
     color: white;
     text-transform: uppercase;
     font-weight: 700;
@@ -31,7 +31,7 @@ body{
 }
 .conteudo h3{
     animation-duration: 3s;
-    font-family: montserrat;
+    font-family: Montserrat, 'LabMono', sans-serif;
     color: white;
     text-transform: lowercase;
     font-weight: normal;
@@ -68,7 +68,7 @@ body{
     height: 40px;
     text-align: center;
     text-transform: lowercase;
-    font-family: montserrat;
+    font-family: Montserrat, 'LabMono', sans-serif;
     font-weight: 500;
     letter-spacing: 2px;
     font-size: 12px;
@@ -94,7 +94,7 @@ body{
 }
 .status span{
     color: white;
-    font-family: montserrat;
+    font-family: Montserrat, 'LabMono', sans-serif;
     font-weight: 700;
     font-size: 12px;
     letter-spacing: 3px;
